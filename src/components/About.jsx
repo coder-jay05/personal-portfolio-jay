@@ -1,5 +1,5 @@
 import React from 'react'
-
+import image from "../assets/title.jpeg"
 const About = () => {
   return (
 
@@ -12,7 +12,7 @@ const About = () => {
 
 {/* Content and Image Div */}
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
-            <img src='/src/assets/hero-image.jpeg' className='w-72 h-80 rounded object-cover mb-8 md:mb-0' ></img>
+            <img src={image} className='w-72 h-80 rounded object-cover mb-8 md:mb-0' ></img>
 
        <div className='flex-1'>
             <p className='text-lg mb-8'>Hi, I'm Jayprakash, a passionate MERN Stack Developer skilled in building responsive and scalable web applications using MongoDB, Express.js, React.js, and Node.js. I’ve worked on several real-world projects like a Course-Selling App, Personal Portfolio, and a To-Do App with Login & Authentication.
