@@ -1,11 +1,12 @@
 import React from 'react'
 import Resume from "../assets/docs/JayPrakash Resume pan.pdf"
+import portfolio from "../assets/portfolio.png"
 
 const Hero = () => {
   return (
     <div className='bg-black text-white text-center py-16 ' id='home'>
       
-      <img src='/src/assets/hero-image.jpeg' alt='' className='mx-auto mb-8 w-48 h-48 object-cover transform transition-transform duration-300 hover:scale-105'></img>
+      <img src={portfolio} alt='' className='mx-auto mb-8 w-48 h-48 object-cover transform transition-transform duration-300 hover:scale-105'></img>
 
       <h1 className='text-4xl font-bold'> I'm {" "} 
         <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>JayPrakash Mahato</span>
