@@ -35,7 +35,7 @@ const Education = () => {
   ];
   return (
     <>
-       <div className='bg-black text-white py-20 ' id='services'>
+       <div className='bg-black text-white py-20 ' id='education'>
     <div className='container mx-auto px-8 md:px-16 lg:px-24'>
 
          <h1 className='text-4xl font-bold text-center mb-12'>Education </h1>
