@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.block2{
+    position:absolute;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color:#202124;
+    opacity: 0.8;
+
+   
+}
+
